@@ -80,12 +80,12 @@ section {
 
 .portfolio-image {
   width: 100%;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .portfolio-image-2 {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 @media (max-width: 990px) {
@@ -107,7 +107,7 @@ section {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1600px) {
   .banner-text {
     font-size: 30px;
     position: absolute;
@@ -127,9 +127,9 @@ section {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 600px) {
   .banner-text {
-    font-size: 10px;
+    font-size: 20px;
     position: absolute;
     color: grey;
     text-transform: uppercase;
@@ -138,11 +138,20 @@ section {
   }
 
   .banner-text-2 {
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     color: rgb(61, 61, 61);
     text-transform: lowercase;
     margin-left: 5vmin;
-    margin-top: 20px;
+    margin-top: 30px;
+  }
+
+  .about-image {
+    margin-left: 10px;
+  }
+
+  .about-text {
+    /* padding: 10px 10px 10px 10px; */
+    margin-top: 0;
   }
 }
