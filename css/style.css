@@ -6,11 +6,6 @@ body {
   background-color: rgb(2, 3, 5);
 }
 
-.navbar-image {
-  width: 100px;
-  margin-top: -5px;
-}
-
 /* .navbar-brand {
   text-align: right;
 } */
@@ -23,14 +18,19 @@ section {
   position: relative;
 }
 
+/* navbar */
+.navbar-image {
+  width: 100px;
+  margin-top: -5px;
+}
+/* akhir navbar */
+
+/* main */
 .img-fluid {
+  background-size: cover;
   height: 100%;
   margin-bottom: 50px;
 }
-
-/* #home {
-  text-align: center;
-} */
 
 .banner-text {
   position: absolute;
@@ -48,7 +48,9 @@ section {
   margin-left: 110vmin;
   margin-top: 136px;
 }
+/* akhir main */
 
+/* about */
 .me {
   color: white;
   font-size: 40px;
@@ -70,8 +72,10 @@ section {
   margin-top: 80px;
   padding: 50px 50px 50px 50px;
 }
+/* akhir about */
 
-.port-layout {
+/* portfolio */
+.port-text {
   color: white;
   font-size: 40;
   text-align: center;
@@ -86,6 +90,25 @@ section {
 .portfolio-image-2 {
   width: 100%;
   margin-top: 20px;
+}
+/* akhir portfolio */
+
+/* blog */
+.blog-text {
+  color: white;
+  font-size: 40;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#blog a:link {
+  text-decoration: none;
+}
+
+#blog a:hover {
+  color: white;
 }
 
 @media (max-width: 990px) {
@@ -107,7 +130,7 @@ section {
   }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1100px) {
   .banner-text {
     font-size: 30px;
     position: absolute;
