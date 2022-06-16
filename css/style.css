@@ -94,6 +94,10 @@ section {
 /* akhir portfolio */
 
 /* blog */
+#blog {
+  margin-bottom: 40px;
+}
+
 .blog-text {
   color: white;
   font-size: 40;
@@ -110,6 +114,58 @@ section {
 #blog a:hover {
   color: white;
 }
+/* akhir blog */
+
+/* team */
+.team-text {
+  color: white;
+  font-size: 40;
+  text-align: center;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+#team {
+  margin-bottom: 60px;
+  margin-left: 15%;
+  width: 70%;
+}
+/* akhir team */
+
+/* contact */
+.contact-text {
+  color: white;
+  font-size: 40;
+  text-align: center;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+/* #contact {
+  align-content: center;
+} */
+
+#contact img {
+  margin-left: 45%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+#contact p {
+  font-size: 20px;
+  color: rgb(159, 159, 159);
+}
+
+.ig-text,
+.fb-text {
+  margin-left: 30%;
+}
+
+.em-text {
+  margin-left: 15%;
+}
+/* akhir contact */
 
 @media (max-width: 990px) {
   .banner-text {
